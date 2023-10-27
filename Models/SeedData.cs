@@ -22,7 +22,7 @@ namespace RazorPagesMovie.Models
                 }
 
                 context.Movie.AddRange(
-                    new Movie
+                    new Scriptures
                     {
                         Title = "When Harry Met Sally",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
@@ -30,7 +30,7 @@ namespace RazorPagesMovie.Models
                         Price = 7.99M
                     },
 
-                    new Movie
+                    new Scriptures
                     {
                         Title = "Ghostbusters ",
                         ReleaseDate = DateTime.Parse("1984-3-13"),
@@ -38,7 +38,7 @@ namespace RazorPagesMovie.Models
                         Price = 8.99M
                     },
 
-                    new Movie
+                    new Scriptures
                     {
                         Title = "Ghostbusters 2",
                         ReleaseDate = DateTime.Parse("1986-2-23"),
@@ -46,7 +46,7 @@ namespace RazorPagesMovie.Models
                         Price = 9.99M
                     },
 
-                    new Movie
+                    new Scriptures
                     {
                         Title = "Rio Bravo",
                         ReleaseDate = DateTime.Parse("1959-4-15"),

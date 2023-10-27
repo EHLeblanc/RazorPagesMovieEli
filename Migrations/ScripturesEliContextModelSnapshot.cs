@@ -10,8 +10,8 @@ using RazorPagesMovieEli.Data;
 
 namespace RazorPagesMovieEli.Migrations
 {
-    [DbContext(typeof(RazorPagesMovieEliContext))]
-    partial class RazorPagesMovieEliContextModelSnapshot : ModelSnapshot
+    [DbContext(typeof(ScripturesEliContext))]
+    partial class ScripturesEliContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
         {

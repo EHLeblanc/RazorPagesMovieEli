@@ -13,9 +13,9 @@ namespace RazorPagesMovieEli.Pages.Movies
 {
     public class EditModel : PageModel
     {
-        private readonly RazorPagesMovieEli.Data.RazorPagesMovieEliContext _context;
+        private readonly RazorPagesMovieEli.Data.ScripturesEliContext _context;
 
-        public EditModel(RazorPagesMovieEli.Data.RazorPagesMovieEliContext context)
+        public EditModel(RazorPagesMovieEli.Data.ScripturesEliContext context)
         {
             _context = context;
         }

@@ -11,7 +11,7 @@ using RazorPagesMovieEli.Data;
 
 namespace RazorPagesMovieEli.Migrations
 {
-    [DbContext(typeof(RazorPagesMovieEliContext))]
+    [DbContext(typeof(ScripturesEliContext))]
     [Migration("20231025021110_InitialCreate")]
     partial class InitialCreate
     {
